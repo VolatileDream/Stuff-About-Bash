@@ -67,7 +67,9 @@ There are two types of Arrays in Bash: indexed, and associative. Indexed arrays 
     declaration:
         array=(value1 value2 ... valueN) ; valueX is of the form "[index]=value" or "value"
 
-Indexed arrays are sparse, meaning that they do not contain elements that have not been set (or that have been removed).
+Indexed arrays are sparse, meaning that they do not contain elements that have not been set (or that have been removed). This means that they may report gaps in the numbers that they contain.
+
+It is also important to note that indexed arrays can be negatively indexed: `array[-1]` accesses the last element of the array.
 
 ### Associative Arrays
 
