@@ -1,7 +1,9 @@
 
 # Brace Expansion
 
- 1) 
+ 1) If you make a typo in a file name, how can you correct this using the `mv` command and a brace expansion?
+
+ 2) 
 
 # Arrays
 
@@ -9,6 +11,7 @@
     Once it has processed all of standard input, it should output the counts in the form: "<number>: <count>", with a single record per line.
     It should output all numbers between the smallest and largest number that have been seen. Numbers that have not been seen should have a count of zero.
     It should print out the numbers in numerical order (from smallest to largest).
+
     Bonus: Instead of numerical order (smallest to largest), it should print out numbers by the number of occurances (most to least).
 
  2) Write a bash script that accepts the following commands on standard input:

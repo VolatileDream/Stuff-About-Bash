@@ -84,6 +84,8 @@ You can see all the keys contained in an array with: `${!array[@]}`. And the arr
 
 Note that normal variables can be implicitly converted to indexed arrays. Their prior value is converted to the item for the 0 index.
 
+The `read` command can be told to read the current line into an array, see `help read`.
+
 ## shopt-ing
 
 
