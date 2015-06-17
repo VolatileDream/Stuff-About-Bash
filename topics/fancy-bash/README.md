@@ -69,6 +69,18 @@ There are two types of Arrays in Bash: indexed, and associative. Indexed arrays 
 
 Indexed arrays are sparse, meaning that they do not contain elements that have not been set (or that have been removed).
 
+### Associative Arrays
+
+    declaration:
+        declare -A array=(value1 value2 ... valueN) ; valueX is of the form "[index]=value"
+
+### In General
+
+Array elements can be removed with: `unset array[index]`. Or the entire array can be removed: `unset array`.
+
+You can see all the keys contained in an array with: `${!array[@]}`. And the array length: `${#array[@]}`
+
+Note that normal variables can be implicitly converted to indexed arrays. Their prior value is converted to the item for the 0 index.
 
 ## shopt-ing
 
