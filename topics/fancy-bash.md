@@ -88,4 +88,19 @@ The `read` command can be told to read the current line into an array, see `help
 
 ## shopt-ing
 
+(See here)[https://www.gnu.org/software/bash/manual/bash.html#The-Shopt-Builtin].
 
+There are only a few `shopt` settings that might be very useful:
+
+ * nullglob -- glob patterns that match nothing are expanded to the empty string
+ * failglob -- glob patterns that match nothing cause an expansion error (probably very good)
+ * promptvars -- prompt strings undergo all forms of expansion (on by default)
+
+There is also `set` in bash, it has a few useful settings:
+
+ * -u -- treats unset variables access as an error
+ * -x -- print commands an their arguments before they are executed
+ * -B -- enable brace expansion (on by default)
+
+ Executing `set +?` where ? is an option will disable it.
+ The content of `$-` is the currently set flags.
