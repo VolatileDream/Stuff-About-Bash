@@ -1,14 +1,16 @@
 #!/usr/bin/env bash
 
+SUM=0
+
 arg-count(){
     # write out the arguments we got
-    echo "$@"
-    while [ $# -gt 0 ]; do
-        echo $#
-        shift
-    done
+    echo $#
+    SUM=$(($SUM+$#))
 }
 
 for file in * ; do
    arg-count $file
 done
+
+echo "Total number of arguments: $SUM"
+echo "Total number of files: " `ls | wc -l`
