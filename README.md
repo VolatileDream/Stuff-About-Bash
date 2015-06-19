@@ -8,7 +8,7 @@ This is a continuation of the Unix10X series of seminars that cover the use of *
 this instalment we will be covering some of what the School of Computer Science has left out of their introduction to the Command Line / Bash (from cs246), as well as a brief introduction to having a useful prompt.
 
 Topics to be discussed include:
- * Fancy Bash: paren expansion, arrays, and some shopt
+ * Fancy Bash: brace expansion, arrays, and some shopt
  * The File System is Scary: your file names contain white space and newlines.
  * Where Am I: A brief introduction to prompt customization
 
