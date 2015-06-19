@@ -18,4 +18,4 @@ There exists a way to talk to the surrounding terminal, to change the name of th
     `\[\e]0;<<<YOUR STUFF HERE>>>\a\]`
 
 
-Do not forget: All expansions can be done in your prompt strings
+Do not forget: all expansions can be done in your prompt strings!
