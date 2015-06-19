@@ -1,0 +1,14 @@
+#!/usr/bin/env bash
+
+arg-count(){
+    # write out the arguments we got
+    echo "$@"
+    while [ $# -gt 0 ]; do
+        echo $#
+        shift
+    done
+}
+
+for file in * ; do
+   arg-count $file
+done
