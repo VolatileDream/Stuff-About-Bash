@@ -17,6 +17,8 @@ This generally occurs in the following form:
         done
     }
 
+What happens if one of the files is named something malicous?
+
 ## Quote everything
 
     "When in doubt, quote it." --glgambet
